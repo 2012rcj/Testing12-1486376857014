@@ -193,7 +193,7 @@ try
      ResultSet r2=stm.executeQuery("SELECT Ticket_Id,Subject_Desc,Support_Priority,support_ticket_status,Comment,date FROM retail_store_maint WHERE store_id =(Select Store_Id from retail_store where Str_Nm='"+S+"') ");
    %>
  <TABLE id="tablepaging" BORDER="1" align="center">
-       <TR class="odd">ravi
+       <TR class="odd">
                    <TH align="center" >Ticket_Id</TH>
 	           <TH align="center" >Subject_Desc</TH>
                    <TH align="center" >Support_Priority</TH>
